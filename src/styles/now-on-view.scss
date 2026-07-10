@@ -55,7 +55,7 @@
     &:hover {
       background-color: #ae1c23;
       cursor: pointer;
-      transform: translate(0, -10px);
+       box-shadow: 1px 4px 16px $color-main;
     }
   }
 }

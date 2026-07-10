@@ -55,7 +55,7 @@
     &:hover {
       display: block;
       cursor: pointer;
-      transform: scale(1.05);
+      text-shadow: 0 0 1.3px #3e3e3e;
     }
   }
 
@@ -64,6 +64,13 @@
     font-weight: $font-weight-bigger;
     font-size: $font-size-medium;
     font-style: normal;
+    transition: transform 0.3s;
+
+    &:hover {
+      display: block;
+      cursor: pointer;
+      text-shadow: 0 0 1.3px black;
+    }
   }
 
   &__form {
@@ -182,7 +189,7 @@
       cursor: pointer;
       background-color: #ae1c23;
       transition: background-color 0.3s;
-      transform: translate(0, -10px);
+      box-shadow: 1px 4px 16px $color-main;
     }
   }
 }
